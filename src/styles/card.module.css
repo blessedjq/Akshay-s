@@ -1,0 +1,29 @@
+.card{
+    background-color: black;
+    color: #fff;
+    height:68vh;
+    width:250px;
+    border-radius:25px;
+    background-size:cover;
+    padding-left:40px;
+}
+
+.card img{
+    position: fixed;
+    bottom:75px;
+    scale:.7;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+.card h1{
+    position: fixed;
+    bottom:50px;
+    font-size:22px;
+    margin:0;
+    font-weight: 100;
+}
+
+.card:hover .icon{
+    opacity:1;
+}
+

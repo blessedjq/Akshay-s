@@ -1,0 +1,7 @@
+.container{
+    height:75vh;
+    padding-left:5vw;
+    padding-right:5vw;
+    position: sticky;
+    z-index:5;
+}

@@ -1,0 +1,109 @@
+.container {
+    height: 95vh;
+    background-color: #E5EAE6;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.container div {
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+.counts {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Add some space between the images */
+}
+
+.content {
+    width: 100%;
+    position: relative;
+}
+
+.content h1 {
+    font-size: 3rem;
+    color: #5A5A5A; /* Improved contrast */
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+.content p {
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 40px; /* Add space below paragraph */
+    color: #333; /* Improved contrast */
+}
+
+.content a {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    background-color: #A8A8A8; /* Improved contrast */
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 15px;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.content a:hover {
+    background-color:black; /* Darken on hover */
+}
+.sliderContainer{
+    position: absolute;
+    width:35vw;
+    margin-top: 100px;
+   right: 70px;
+ 
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add some rounding to the images */
+}
+
+.images h2 {
+    font-size: 1.5rem;
+    color: #5A5A5A;
+    text-align: center;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 50px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container div {
+        flex-basis: 100%;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content a {
+        font-size: 1rem;
+        padding: 10px 30px;
+    }
+
+    .slider-container {
+        padding: 10px;
+    }
+
+    .images h2 {
+        font-size: 1.2rem;
+    }
+}

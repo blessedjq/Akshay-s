@@ -1,0 +1,48 @@
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width:100vw;
+    z-index: 8;
+}
+.newnav{
+    background-color: #59781A;
+    animation-name: navani;
+    animation-duration:.5s;
+}
+.nav img{
+    width:15vw;
+    margin-left:13vw;
+}
+
+.navbtns{
+    margin-left:8vw;
+    margin-top:5vh;
+}
+
+.navbtns a{
+    text-decoration: none;
+    margin-right:25px;
+    font-weight: 500;
+}
+.navbtns a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset:5px;
+    color: #fff;
+}
+.activebtn{
+    color: #fff;
+    text-decoration-color: #fff;
+}
+.inactivebtn{
+    color: #909190;
+}
+
+
+@keyframes navani {
+    0%{
+        transform: translateY(-100px);
+    }
+}

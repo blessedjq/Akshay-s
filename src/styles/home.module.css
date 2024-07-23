@@ -1,0 +1,134 @@
+
+.cover1 {
+    position: relative;
+    height: 110vh;
+    width: 98.93vw;
+    overflow: hidden;
+  }
+  
+  .cover1 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: 0;
+  }
+  .container{
+    position: absolute;
+    top:0;
+    z-index:0;
+  }
+  .qoutes{
+    position: absolute;
+    left:5vw;
+    top:57vh;
+    z-index:1;
+    width:50vw;
+    color: #fff;
+  }
+
+  .qoutes h1{
+    font-family: "Manrope", Sans-serif;
+    z-index:1;
+    height:60px;
+    font-size:65px;
+    font-weight:100;
+    margin:0;
+  }
+  .q2{
+    margin-top:7vh;
+  }
+  .q2 h3{
+    font-family: "Manrope", Sans-serif;
+    font-size:22px;
+    font-weight: 400;
+    margin:10px;
+  }
+
+  .lightqoute{
+    background-color: #fff;
+    height:75vh;
+    align-content: center;
+  }
+
+  .lightqoutecontainer{
+    background-color: #E5E5E5;
+    height:60%;
+    width:70%;
+    border-radius:50px;
+    text-align: center;
+    margin:30px auto;
+    padding:50px;
+  }
+  .lightqoutecontainer h1{
+    font-family: "Manrope", Sans-serif;
+    font-size:60px;
+    background: linear-gradient(to right, #f321b4, #7b08ff, #2923cf, #44c6ee);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+    margin:0;
+  }
+
+  .lightqoutecontainer p{
+    font-size:20.5px;
+    margin:10px;
+    color: #8C8C8C;
+  }
+
+  .methodology{
+    position:sticky;
+    z-index:-1;
+    background-color: #D7E2E8;
+    height: 130vh;
+  }
+  .methodologycontainer{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:40%;
+    align-items: center;
+  }
+  .methodologycontainer div{
+    width:50%;
+    text-align: left;
+    
+  }
+.methodologycontainerleft{
+  padding-left:12%;
+}
+  .methodologycontainerleft h1{
+    font-size:40px;
+    font-weight:600;
+    margin-bottom:50px;
+  }
+  .methodologycontainerleft a{
+    text-decoration: none;
+    background-color: #A8A8A8;
+    color: #fff;
+    padding:10px 40px;
+    font-size:20px;
+    border-radius:10px;
+  }
+  .methodologycontainerleft a:hover {
+    background-color: black;
+  }
+  .methodologycontainerright{
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    padding-left:0px;
+    padding-top:200px;
+  }
+
+  .methodologycontainerright p{
+    font-family: "Manrope", Sans-serif;
+    font-weight:100;
+    font-size:23px;
+    margin:3px;
+    color:#292727;
+  }
+  
